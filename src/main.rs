@@ -20,6 +20,5 @@ fn main() {
             future::ok(())
         });
 
-
-    tokio::run(server);
+    tokio_io_pool::run(server);
 }
